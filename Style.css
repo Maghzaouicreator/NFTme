@@ -1,0 +1,104 @@
+body {
+    background-color:hsl(217, 54%, 11%) ;
+    font-family: 'Outfit', sans-serif;
+}
+.rectangle{
+    width: 350px;
+    height: 600px;
+    background-color:hsl(216, 50%, 16%);
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+.equilibrium{
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -91%);
+    z-index: 99;
+    width: 300px;
+    border-radius: 15px;
+    
+}
+
+h1{
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-91.5%, 130%);
+    z-index: 100;
+    font-size: 20px;
+   
+}
+h1:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+
+li {
+    flex:content;
+    display:inline;
+    margin-right: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-200%, 900%);
+    z-index: 100;
+    
+}
+.bluegray{
+    color:hsl(215, 51%, 70%);
+    
+}
+#cyan{
+    color: hsl(178, 100%, 50%);
+}
+p{
+    font-size: 18px;
+   
+}
+.firstp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-53%, 180%);
+    z-index: 100;
+
+}
+hr {
+    position: relative;
+    width: 300px;
+    border-color:hsl(215, 51%, 70%) ;
+    opacity: 0.4;
+    margin-top:580px;
+    z-index:100;
+  
+}
+.rainbow{
+    width: 33px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-430%, 690%);
+    z-index: 100;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: white;
+}
+.secondp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1020%);
+    z-index: 100;
+    font-size: 18px;
+}
+.secondp:hover{
+    color:hsl(178, 100%, 50%);
+}
